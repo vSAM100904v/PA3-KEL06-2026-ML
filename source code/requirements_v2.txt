@@ -1,0 +1,20 @@
+# MamaCare AI v2.0 - Requirements
+# Install: pip install -r requirements_v2.txt
+
+pandas>=1.5.0
+numpy>=1.23.0
+scikit-learn>=1.2.0
+imbalanced-learn>=0.10.0
+matplotlib>=3.6.0
+seaborn>=0.12.0
+joblib>=1.2.0
+openpyxl>=3.0.0
+xlrd>=2.0.0
+
+# Streamlit App
+streamlit>=1.20.0
+
+# FastAPI Backend
+fastapi>=0.104.0
+uvicorn[standard]>=0.24.0
+pydantic>=2.0.0
